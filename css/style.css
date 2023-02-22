@@ -1,0 +1,288 @@
+.background{
+    width: 100%;
+    height:730px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+}
+.block-navigation{
+    display: flex;
+    justify-content:space-between;
+    font-size: 17px;
+    background-color:  #285004;
+}
+.nav-ul{
+    display: flex;
+    justify-content:space-between;
+   margin-top: 30px;
+    font-size: 17px;
+}
+.a-item{
+    position: relative;
+    color: goldenrod;
+    padding-left: 30px;
+    margin-right: 40px;
+}
+.logo{
+    width: 200px;
+}
+.navigation{
+    display: flex;
+    justify-content:space-between;
+    font-size: 17px;
+    background-color: #285004;
+}
+
+.a-item:hover{
+    width: 30px;
+    color: chartreuse;
+}
+.canion{
+   margin-left: 37%;
+    font-size: 40px;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+.active-red{
+    color:rgb(255, 18, 18);
+}
+.a-item::after{
+    content:"";
+    height: 3px;
+    width: 0%;
+    background-color: gold;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 2s linear;
+
+}
+.a-item:hover::after{
+    width: 100%;
+}
+/* news.html */
+.section-1{
+    width: 500px;
+   background-color: #285004;
+   margin-left: 10px;
+}
+.text-1{
+    color:wheat;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 12%;
+}
+.background-img{
+    width: 100%;
+    background-image: url(../images/dashbashi-1.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+}
+.text-2{
+    color: wheat;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15%;
+}
+.span-text{
+    color: wheat;
+    margin-top: 10px;
+}
+.span{
+    color: red;
+    font-size: 15px;
+}
+/* section-2 */
+.img-background{
+    width: 100%;
+    background-image: url(../images/dashbashi-2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    margin-top: 5px;
+}
+.section-2{
+    width: 500px;
+    background-color: darkgreen;
+    margin-left: 66%;
+}
+.title-1{
+    color: goldenrod;
+    font-size: 20px;
+    margin-top: 20px;
+   margin-left: 30%;
+}
+.title-2{
+    color: gainsboro;
+    font-size: 17px;
+    margin-top: 5px;
+   
+}
+/* section-3 */
+.div-data{
+    margin-left: 35%;
+}
+.title-3{
+    font-size: 25px;
+    color: greenyellow;
+    margin-top: 3px;
+}
+.p-title{
+    font-size: 25px;
+    color: green;
+    margin-top: 4px;
+    margin-left: 90px;
+}
+.p-title-1{
+    font-size: 20px;
+    color: chartreuse;
+    margin-top: 5px;
+    margin-left: 13%;
+}
+.left-block{
+    display: inline-block;
+    width: 500px;
+    height: 150px;
+    
+}
+.title-left{
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+   
+}
+.li-title{
+    color: darkgray;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.li-title-1{
+    color: darkgray;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.li-title-2{
+    color: darkgray;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.li-title-3{
+    color: darkgray;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.li-title-4{
+    color: darkgray;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.right-block{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 30%;
+    vertical-align: top;
+    margin-top: 40px;
+}
+.right-text{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.li-text-1{
+    color: darkgrey;
+    margin-top: 5px;
+}
+/* contact */
+.section-contact{
+    background-color: antiquewhite;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.map{
+    width:1070px;
+    height: 500px;
+    margin-left: 15%;
+    
+}
+.left-block-contact{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 200px;
+}
+.right-block-contact{
+    display: inline-block;
+    vertical-align: top;
+}
+.title-contact{
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+.span-contact{
+
+    color: red;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.ul-contact{
+    margin-top: 20px;
+    padding: 10px;
+}
+/* img.html */
+.title-news-h2{
+   font-size: 30px;
+   color: gold;
+   margin-top: 20px;
+   margin-left: 37%;
+}
+.img-canyon{
+    width:303px;
+    height: 200px;
+    margin-top: 10px;
+}
+.summer{
+    font-size: 30px;
+   color: gold;
+   margin-top: 20px;
+   margin-left: 37%;
+}
+.img-dashbash{
+    width:303px;
+    height: 200px;
+    margin-top: 10px;
+}
+/* form style */
+.form-wraper{
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.input-element{
+   background-color: #285004;
+   color: gold;
+}
+.textarea{
+    background-color: #285004;
+    color: gold;
+    margin-left: 23%;
+    margin-top: 20px;
+    width: 800px;
+    height: 300px;
+}
+.button{
+    background-color: #285004;
+    color: gold;
+    margin-left: 45%;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 40px;
+}
+.burger-bar{
+    display: none;
+}

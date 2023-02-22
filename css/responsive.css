@@ -1,0 +1,24 @@
+@media (max-width:768px){
+    .nav-bar{
+        display: none;
+    }
+    .burger-bar{
+        display: block;
+        color: gold;
+    }
+    .nav-ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-bar.navActiv{
+        display: none;
+    }
+    .canion{
+        flex-direction: column;
+    }
+}
+@media (min-width: 320px) and (max-width: 1024px){
+    .bacground{
+        height: auto;
+    }
+}

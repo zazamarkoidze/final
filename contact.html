@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <nav id="nav-bar">
+                <ul class="nav-ul">
+                    <li><a class="a-item" href="index.html">მთავარი</a></li>
+                    <li><a class="a-item" href="img.html">ფოტო</a></li>
+                    <li><a class="a-item" href="news.html">ახალი ამბები</a></li>
+                    <li><a class="a-item active-red" href="contact.html">კონტაქტი</a></li>
+                </ul>
+            </nav>
+            <div id="burger-bar">
+            </div>
+        </div>
+        <script src="script"></script>
+    </header>
+    <section class="section-contact">
+        <div class="left-block-contact">
+            <h3 class="title-contact">საკონტაქტო ინფორმაცია</h3>
+            <ul class="ul-contact">
+                <li>
+                    <span class="span-contact">მისამართი:</span>
+                    <a
+                        href="https://www.google.com/maps/search/dashbashi+canyon/@41.5843686,44.1157292,14z/data=!3m1!4b1">დაშბაშის
+                        კანიონი</a>
+                </li>
+                <li>
+                    <span class="span-contact">ტელ:</span>
+                    <a href="callto:+032 288 05 05">+032 288 05 05</a>
+                </li>
+                <li>
+                    <span class="span-contact">ელფოსტა:</span>
+                    <a href="mailto: info@kassland.com?subject=The%20subject%20of%20the%20mail"> info@kassland.com</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-block-contact">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23874.408761743023!2d44.1157292108627!3d41.58436857176434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4043986af96f5a15%3A0x779627b64c5419b7!2sDashbashi%20Canyon!5e0!3m2!1ska!2sge!4v1676975963489!5m2!1ska!2sge"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section>
+        <form action="" class="form-wraper">
+            <label for="name"></label>
+            <input class="input-element" type="text" id="name" name="NAME" placeholder="Enter your name...">
+            <label for="last name"></label>
+            <input class="input-element" type="text" id="last name" name="LAST NAME" placeholder="Enter your last name...">
+            <label for="password"></label>
+            <input class="input-element" type="password" id="password" name="password" placeholder="Enter your password">
+        </form>
+        <div class="div-label">
+            <label for="message"></label>
+            <textarea class="textarea" name="message" id="message" placeholder="Enter your message..."></textarea>
+            <div>
+                <button class="button" type="submit">გაგზავნა</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
