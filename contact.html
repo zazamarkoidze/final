@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
 </head>
 
 <body>
@@ -23,7 +25,8 @@
                     <li><a class="a-item active-red" href="contact.html">კონტაქტი</a></li>
                 </ul>
             </nav>
-            <div id="burger-bar">
+            <div class="bar-burger" id="burger-bar">
+                <i class="fa-duotone fa-bars"></i>
             </div>
         </div>
         <script src="script"></script>
@@ -40,11 +43,11 @@
                 </li>
                 <li>
                     <span class="span-contact">ტელ:</span>
-                    <a href="callto:+032 288 05 05">+032 288 05 05</a>
+                    <a href="callto:+0322880505">+032 288 05 05</a>
                 </li>
                 <li>
                     <span class="span-contact">ელფოსტა:</span>
-                    <a href="mailto: info@kassland.com?subject=The%20subject%20of%20the%20mail"> info@kassland.com</a>
+                    <a href="mailto:info@kassland.com?subject=The%20subject%20of%20the%20mail"> info@kassland.com</a>
                 </li>
             </ul>
         </div>
@@ -56,13 +59,15 @@
         </div>
     </section>
     <section>
-        <form action="" class="form-wraper">
+        <form  class="form-wraper">
             <label for="name"></label>
             <input class="input-element" type="text" id="name" name="NAME" placeholder="Enter your name...">
-            <label for="last name"></label>
-            <input class="input-element" type="text" id="last name" name="LAST NAME" placeholder="Enter your last name...">
+            <label for="lastname"></label>
+            <input class="input-element" type="text" id="lastname" name="LASTNAME"
+                placeholder="Enter your last name...">
             <label for="password"></label>
-            <input class="input-element" type="password" id="password" name="password" placeholder="Enter your password">
+            <input class="input-element" type="password" id="password" name="password"
+                placeholder="Enter your password">
         </form>
         <div class="div-label">
             <label for="message"></label>
@@ -72,6 +77,12 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <img class="icon" src="images/facebook.svg" alt="icon">
+        <img class="icon" src="images/youtube.svg" alt="icon">
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
