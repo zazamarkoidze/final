@@ -18,23 +18,35 @@
     }
    
 }
-@media (min-width: 320px) and (max-width: 1024px){
-    .bacground{
-        height: auto;
-    }
-}
-@media (min-width: 320px) and (max-width: 1024px){
-    .background-img{
-        height: auto;
-    }
-}
-@media (min-width: 320px) and (max-width:1024px){
+@media (max-width:1024px) {
     .section-1{
-        height: auto;
+        width: 100%;
+    }
+    .section-2{
+        width: 100%;
+        
+    }
+    .title-1{
+        width: 100%;
+    }
+    .div-data{
+        width: 100%;
+    }
+    .left-block{
+        width: 100%;
+    }
+    .right-block{
+        width: 100%;
     }
 }
-@media (min-width:320px) and (max-width:1024px){
-    .section-2{
-        height: auto;
-    }
+/* contact */
+@media (max-width:1024px) {
+.map{
+    /* margin: 0 auto; */
+    width: 100%;
+ }
+ .input-element{
+    /* margin: 0 auto; */
+    width: 50%;
+ }
 }
